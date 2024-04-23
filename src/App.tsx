@@ -1,10 +1,10 @@
-import { useState } from "react";
+import Form from "./components/Form";
 import "./App.css";
 
 function App() {
   return (
-    <div className="bg-white">
-      <p>hello world</p>
+    <div className="flex flex-col">
+      <Form />
     </div>
   );
 }
